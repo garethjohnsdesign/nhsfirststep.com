@@ -18,8 +18,8 @@ layout: default
   <div class="grid-container">
     <div class="grid-x grid-padding-y" data-aos="fade-in">
       <div class="small-12 cell text-center">
-        <h2>Find details on how to self-refer to your local maternity here</h2>
-        <p>The NHS recommends you contact your local maternity unit as soon as you find out you are pregnant.</p>
+        {{page.find-header-text | markdownify}}
+        {{page.find-subheader-text | markdownify}}
       </div>
     </div>
   </div>
@@ -37,9 +37,8 @@ layout: default
         <img src="/uploads/anna.jpg" alt="Anna">
       </div>
       <div class="small-12 medium-6 cell padding-3">
-        <h3 class="secondary-font-italic bright-maroon">Why make contact early?</h3>
-        <p>Contacting your local maternity unit as soon as you find out you are pregnant will ensure you are offered all available services during your pregnancy. You will also receive the most up to date information, reassurance and mutual support at the start of your journey. Ideally you should make contact with a midwife before 10 weeks of pregnancy. This is because some tests cannot be carried out later in pregnancy, for example the test for sickle cell and thalassaemia can only be carried out prior to 10 weeks. Your pregnancy will be treated confidentially, even if you are under 16.</p>
-        <p>For further information you can find your local maternity services here.</p>
+        <h2 class="secondary-font-italic bright-maroon">{{page.why-header}}</h2>
+        {{page.why-text | markdownify}}
       </div>
     </div>
   </div>
@@ -52,14 +51,17 @@ layout: default
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
       <div class="small-12 medium-6 cell">
-        <h3 class="secondary-font-italic orange">How do I contact my local maternity unit?</h3>
-        <p>You can find contact details for your local maternity unit by following the links on this page.</p>
-        <p>If you live outside of Essex you can find your local maternity unit via the NHS Choices page here.</p>
+        <h3 class="secondary-font-italic orange">{{page.how-header}}</h3>
+        {{page.how-text | markdownify}}
       </div>
       <div class="small-12 medium-6 cell">
-        <h2>West Essex Patients</h2>
-        <p>Including Loughton, Buckhurst Hill, Chigwell, Waltham Abbey, Rodings , Saffron Walden, East Hertfordshire </p>
-        <p>Contact: Princess Alexandra Hospital</p>
+        {% for locations in page.how-locations %}
+        <div class="margin-bottom-2">
+          <h4>{{locations.title}}</h4>
+          <h5>{{locations.area}}</h5>
+          Contact: <a href="{{locations.link}}">{{locations.contact}}</a>
+        </div>
+        {% endfor %}
       </div>
     </div>
   </div>
