@@ -77,6 +77,11 @@ svg {
 // 5. Typography
 // -------------
 
+strong, b {
+font-weight: normal;
+font-family: $secondary-font-family-italic;
+}
+
 .underline {
   border-bottom: 1px solid $black;
 }
