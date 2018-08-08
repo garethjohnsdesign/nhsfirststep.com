@@ -17,7 +17,7 @@ why-text: "Contacting your local maternity unit as soon as you find out you are 
   pregnancy, for example the test for sickle cell and thalassaemia can only be carried
   out prior to 10 weeks.\n\nYour pregnancy will be treated confidentially, even if
   you are under 16.\n\n**For further information you can find your local maternity
-  services here.**"
+  services [here](https://www.england.nhs.uk).**"
 how-header: How do I contact my local maternity unit?
 how-text: |-
   You can find contact details for your local maternity unit by following the links on this page.
