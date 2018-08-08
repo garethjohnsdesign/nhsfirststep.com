@@ -22,27 +22,27 @@ how-header: How do I contact my local maternity unit?
 how-text: |-
   You can find contact details for your local maternity unit by following the links on this page.
 
-  **If you live outside of Essex you can find your local maternity unit via the NHS Choices page here.**
+  **If you live outside of Essex you can find your local maternity unit via the NHS Choices page [here](https://www.england.nhs.uk).**
 how-locations:
 - title: West Essex Patients
-  area: "Including Loughton, Buckhurst Hill, Chigwell, Waltham Abbey, Rodings , Saffron
-    Walden, \nEast Hertfordshire "
+  area: 'Loughton, Buckhurst Hill, Chigwell, Waltham Abbey, Rodings, Saffron Walden,
+    East Hertfordshire '
   contact: Princess Alexandra Hospital
   link: https://www.pah.nhs.uk
 - title: Mid Essex Patients
-  area: Including Chelmsford, Braintree and Maldon
+  area: Chelmsford, Braintree and Maldon
   contact: 'Mid Essex Hospital Trust '
   link: http://www.meht.nhs.uk
 - title: South East Essex Patients
-  area: Including Southend-on-Sea, Westcliff-on-Sea, Leigh-on-Sea. Shoeburyness
+  area: Southend-on-Sea, Westcliff-on-Sea, Leigh-on-Sea. Shoeburyness
   contact: Southend Hospital
   link: http://www.southend.nhs.uk
 - title: South West Essex Patients
-  area: "\x03Including Basildon, Thurrock, Brentwood \x03and Wickford"
+  area: "Basildon, Thurrock, Brentwood \x03and Wickford"
   contact: Basildon Hospital South
   link: http://www.basildonandthurrock.nhs.uk
 - title: North East Essex Patients
-  area: "Including Colchester, Clacton, Kelvedon \x03and Marks Tey "
+  area: "Colchester, Clacton, Kelvedon \x03and Marks Tey "
   contact: Colchester Hospital
   link: http://www.colchesterhospital.nhs.uk
 when-header: When can you take a pregnancy test?
@@ -51,12 +51,13 @@ when-text: |-
 
   Some very sensitive pregnancy tests can be used even before you miss a period, from as early as eight days after conception.
 when-extra-text: "You can take a pregnancy test on a sample of urine collected at
-  any time of the day. It doesn't have to be in the morning.\n\nFor more information
-  you can find \x03your local maternity services here."
+  any time of the day. It doesn't have to be in the morning.\n\n**For more information
+  you can find \x03your local maternity services [here](https://www.england.nhs.uk).**"
 where-header: Where can I find more information on pregnancy?
-where-text: "Use our NHS-accredited links below for more information and support on
-  pregnancy, childbirth and becoming a new parent.\n\n**You can find further information
-  on pregnancy via the NHS Choices \npage here.**"
+where-text: |-
+  Use our NHS-accredited links below for more information and support on pregnancy, childbirth and becoming a new parent.
+
+  **You can find further information on pregnancy via the NHS Choices page [here](https://www.england.nhs.uk).**
 where-care-links:
 - title: Easy-read information for people with learning disabilities
   link: https://www.england.nhs.uk
