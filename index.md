@@ -20,6 +20,32 @@ why-text: "Contacting your local maternity unit as soon as you find out you are 
 why-extra-text: For further information you can find your local maternity services
   here.
 how-header: How do I contact my local maternity unit?
+how-text: You can find contact details for your local maternity unit by following
+  the links on this page.
+how-extra-text: If you live outside of Essex you can find your local maternity unit
+  via the NHS Choices page here.
+how-locations:
+- title: West Essex Patients
+  area: "Including Loughton, Buckhurst Hill, Chigwell, Waltham Abbey, Rodings , Saffron
+    Walden, \nEast Hertfordshire "
+  contact: Princess Alexandra Hospital
+  link: https://www.pah.nhs.uk
+- title: Mid Essex Patients
+  area: Including Chelmsford, Braintree and Maldon
+  contact: 'Mid Essex Hospital Trust '
+  link: http://www.meht.nhs.uk
+- title: South East Essex Patients
+  area: Including Southend-on-Sea, Westcliff-on-Sea, Leigh-on-Sea. Shoeburyness
+  contact: Southend Hospital
+  link: http://www.southend.nhs.uk
+- title: South West Essex Patients
+  area: "\x03Including Basildon, Thurrock, Brentwood \x03and Wickford"
+  contact: Basildon Hospital South
+  link: http://www.basildonandthurrock.nhs.uk
+- title: North East Essex Patients
+  area: "Including Colchester, Clacton, Kelvedon \x03and Marks Tey "
+  contact: Colchester Hospital
+  link: http://www.colchesterhospital.nhs.uk
 layout: home
 ---
 
