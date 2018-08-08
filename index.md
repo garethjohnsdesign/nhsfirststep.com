@@ -46,6 +46,11 @@ how-locations:
   area: "Including Colchester, Clacton, Kelvedon \x03and Marks Tey "
   contact: Colchester Hospital
   link: http://www.colchesterhospital.nhs.uk
+when-header: When can you take a pregnancy test?
+when-text: |-
+  You can carry out most pregnancy tests from the first day of a missed period. If you don't know when your next period is due, take the test at least 21 days after you last had unprotected sex.
+
+  Some very sensitive pregnancy tests can be used even before you miss a period, from as early as eight days after conception.
 layout: home
 ---
 
