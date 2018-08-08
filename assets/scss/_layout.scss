@@ -80,6 +80,7 @@ svg {
 strong, b {
 font-weight: normal;
 font-family: $secondary-font-family-italic;
+// font-size: 110%;
 }
 
 .underline {
@@ -121,8 +122,11 @@ p a {
   height: 85vh;
   background-color: $light-gray;
   h1 span {
-    padding: 1rem;
-    background-color: get-color(medium-teal-blue);
+    padding: 0.5rem;
+    background: get-color(medium-teal-blue);
+    box-shadow: -0.5rem 0 0 get-color(medium-teal-blue), 0.5rem 0 0 get-color(medium-teal-blue);
+    box-decoration-break: clone;
+    line-height: 1.2;
   }
   h1 span em{
     color: get-color(orange);
@@ -132,6 +136,14 @@ p a {
 .find {
   background-color: get-color(orange);
   color: $white;
+  a {
+    color: $white;
+    border-bottom: 3px solid $white;
+    &:hover {
+      color: $white;
+      border-bottom: 3px solid transparent;
+    }
+  }
 }
 
 .how {
