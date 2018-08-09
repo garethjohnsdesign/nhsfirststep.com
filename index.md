@@ -28,23 +28,23 @@ how-locations:
   area: 'Loughton, Buckhurst Hill, Chigwell, Waltham Abbey, Rodings, Saffron Walden,
     East Hertfordshire '
   contact: Princess Alexandra Hospital
-  link: https://www.pah.nhs.uk
+  link: https://www.pah.nhs.uk/article/724/How-to-contact-your-Community-Midwife-team
 - title: Mid Essex Patients
   area: Chelmsford, Braintree and Maldon
   contact: 'Mid Essex Hospital Trust '
-  link: http://www.meht.nhs.uk
+  link: http://www.meht.nhs.uk/services/maternity-services/
 - title: South East Essex Patients
-  area: Southend-on-Sea, Westcliff-on-Sea, Leigh-on-Sea. Shoeburyness
+  area: Southend-on-Sea, Westcliff-on-Sea, Leigh-on-Sea, Shoeburyness
   contact: Southend Hospital
-  link: http://www.southend.nhs.uk
+  link: http://www.southend.nhs.uk/your-services/maternity-unit/
 - title: South West Essex Patients
   area: "Basildon, Thurrock, Brentwood \x03and Wickford"
   contact: Basildon Hospital South
-  link: http://www.basildonandthurrock.nhs.uk
+  link: http://www.basildonandthurrock.nhs.uk/clinical-services/1158-maternity-direct
 - title: North East Essex Patients
   area: "Colchester, Clacton, Kelvedon \x03and Marks Tey "
   contact: Colchester Hospital
-  link: http://www.colchesterhospital.nhs.uk
+  link: http://www.colchesterhospital.nhs.uk/maternity_self_referral.shtml
 when-header: When can you take a pregnancy test?
 when-text: |-
   You can carry out most pregnancy tests from the first day of a missed period. If you don't know when your next period is due, take the test at least 21 days after you last had unprotected sex.
@@ -76,6 +76,7 @@ where-care-links:
 where-birth-links:
 - title: Birth to five
   link: https://www.england.nhs.uk
+poster-file: "/uploads/NHS-EMS-Poster-A4-Print_01.pdf"
 layout: home
 ---
 
