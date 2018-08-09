@@ -107,13 +107,13 @@ layout: default
       <div class="small-12 large-6 cell">
         <h4 class="margin-bottom-1">NHS Choices — The Pregnancy Care Planner</h4>
         {% for care-link in page.where-care-links %}
-        <div class="{% if forloop.last == true %}margin-bottom-0{% else %}margin-bottom-2{% endif %}">
+        <div class="{% if forloop.last == true %}margin-bottom-0{% else %}margin-bottom-1{% endif %}">
           <a href="{{care-link.link}}" class="underline">{{care-link.title}}</a>
         </div>
         {% endfor %}
         <h4 class="margin-bottom-1 margin-top-2">NHS Choices — Birth to Five</h4>
         {% for birth-link in page.where-birth-links %}
-        <div class="{% if forloop.last == true %}margin-bottom-0{% else %}margin-bottom-2{% endif %}">
+        <div class="{% if forloop.last == true %}margin-bottom-0{% else %}margin-bottom-1{% endif %}">
           <a href="{{birth-link.link}}" class="underline">{{birth-link.title}}</a>
         </div>
         {% endfor %}
