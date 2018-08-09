@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<!-- Hero -->
 {% assign background-image = page.hero-image %}
 <section class="hero" {% include images/feature.html %}>
   
@@ -20,8 +21,7 @@ layout: default
   </div>
   
 </section>
-<!-- End Menu Hero -->
-
+<!-- End Hero -->
 
 <!-- Find Details -->
 <section class="find">
@@ -69,7 +69,7 @@ layout: default
         <div class="{% if forloop.last == true %}margin-bottom-0{% else %}margin-bottom-2{% endif %}">
           <h4>{{locations.title}}</h4>
           <h5 class="primary-font-italic">Including — {{locations.area}}</h5>
-          Contact: <a href="{{locations.link}}" class="underline">{{locations.contact}}</a>
+          Contact — <a href="{{locations.link}}" class="underline">{{locations.contact}}</a>
         </div>
         {% endfor %}
       </div>

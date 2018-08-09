@@ -2,11 +2,11 @@
 <div class="grid-x align-justify navigation align-middle">
   
   <div class="auto cell">
-    <svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg>
+    <a href="/"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
   </div>
   
   <div class="shrink cell text-right">
-    <ul class="menu align-right white primary-font">
+    <ul class="menu align-right primary-font">
       <li class="show-for-large menu-text">Follow us</li>
       {% for item in site.social %}  
       <li><a href="{{ item[1] }}" class="{% if forloop.last == true %}padding-right-0{% endif %}" target="_blank" rel="noopener"><span class="show-for-sr">{{ item[0] }}</span><svg class="icon icon-socials icon-{{ item[0] }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ item[0] }}"></use></svg></a></li>

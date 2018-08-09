@@ -72,6 +72,8 @@ svg {
   top: 0;
   left: 0;
   width: 100%;
+  color: $white;
+  @include links ($white, $primary-color)
 }
 
 // 5. Typography
@@ -174,9 +176,9 @@ footer {
 }
 
 .navigation {
-  @include padding(1.5,1.5,1.5,1.5);
+  @include padding(1.5,1.5,0,1.5);
   @include breakpoint(medium) {
-    @include padding(2,2,2,2);
+    @include padding(2,2,0,2);
   }
 }
 

@@ -9,8 +9,7 @@ collections:
     title: Uploads
     output: false
 url: https://www.nhsfirststep.com
-description: Pregnant and prepared, find details on how to self-refer to your local
-  maternity unit here.
+description: Pregnant and prepared, find details on how to self-refer to your local maternity unit.
 permalink: pretty
 exclude:
 - bower.json

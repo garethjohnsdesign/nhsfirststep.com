@@ -11,11 +11,11 @@ why-image: "/uploads/anna.jpg"
 why-header: "Why make\x03 contact early?"
 why-text: "Contacting your local maternity unit as soon as you find out you are pregnant
   will ensure you are offered all available services during your pregnancy. You will
-  also receive the most up to date information, reassurance and mutual support at
+  also receive the most up-to-date information, reassurance and mutual support at
   the start of your journey. \n\nIdeally you should make contact with a midwife before
-  10 weeks of pregnancy. This is because some tests cannot be carried out later in
+  ten weeks of pregnancy. This is because some tests cannot be carried out later in
   pregnancy, for example the test for sickle cell and thalassaemia can only be carried
-  out prior to 10 weeks.\n\nYour pregnancy will be treated confidentially, even if
+  out prior to ten weeks.\n\nYour pregnancy will be treated confidentially, even if
   you are under 16.\n\n**For further information you can find your local maternity
   services [here](https://www.england.nhs.uk).**"
 how-header: How do I contact my local maternity unit?
@@ -55,17 +55,17 @@ when-extra-text: "You can take a pregnancy test on a sample of urine collected a
   you can find \x03your local maternity services [here](https://www.england.nhs.uk).**"
 where-header: Where can I find more information on pregnancy?
 where-text: |-
-  Use our NHS-accredited links below for more information and support on pregnancy, childbirth and becoming a new parent.
+  Use our NHS-accredited links for more information and support on pregnancy, childbirth and becoming a new parent.
 
   **You can find further information on pregnancy via the NHS Choices page [here](https://www.england.nhs.uk).**
 where-care-links:
 - title: Easy-read information for people with learning disabilities
   link: https://www.england.nhs.uk
-- title: Pregnancy Care Planner
+- title: Pregnancy care planner
   link: https://www.england.nhs.uk
 - title: Stop smoking in pregnancy
   link: https://www.england.nhs.uk
-- title: Premature Labour and Birth
+- title: Premature labour and birth
   link: https://www.england.nhs.uk
 - title: Can I drink alcohol if I’m pregnant?
   link: https://www.england.nhs.uk
