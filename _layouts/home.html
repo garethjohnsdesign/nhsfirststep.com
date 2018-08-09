@@ -4,17 +4,27 @@ layout: default
 
 {% assign background-image = page.hero-image %}
 <section class="hero" {% include images/feature.html %}>
-  <div class="grid-x align-bottom align-center" style="height: 100%;">
-    <div class="small-8 medium-10 large-8 xxlarge-6 cell text-center margin-bottom-3">
+  
+  {% include navigation.html %}
+  
+  <div class="grid-x align-bottom align-center height-100">
+    <div class="small-shrink medium-10 large-8 xxlarge-6 cell text-center margin-bottom-3">
       <h1 class="white secondary-font-italic margin-bottom-3" data-aos="fade-in"><span>Pregnant <br><em>and</em> Prepared</span></h1>
     </div>
   </div>
+  
+  <div class="grid-x hashtag show-for-medium">
+    <div class="small-12 cell">
+    <svg class="icon icon-hash"><use xlink:href="/assets/icons/symbol-defs.svg#icon-hash"></use></svg>
+    </div>
+  </div>
+  
 </section>
 <!-- End Menu Hero -->
 
 
 <!-- Find Details -->
-<section class="find padding-2">
+<section class="find">
   <div class="grid-container">
     <div class="grid-x grid-padding-y" data-aos="fade-in">
       <div class="small-12 cell text-center">
@@ -29,14 +39,14 @@ layout: default
 
 
 <!-- Why -->
-<section class="why padding-2">
+<section class="why">
   
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
-      <div class="small-12 medium-6 cell">
+      <div class="small-12 large-6 cell">
         <img src="/uploads/anna.jpg" alt="Anna">
       </div>
-      <div class="small-12 medium-6 cell">
+      <div class="small-12 large-6 cell">
         <h2 class="secondary-font-italic bright-maroon">{{page.why-header}}</h2>
         {{page.why-text | markdownify}}
       </div>
@@ -47,18 +57,18 @@ layout: default
 <!-- End Why -->
 
 <!-- How -->
-<section class="how padding-2">
+<section class="how">
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
-      <div class="small-12 medium-6 cell">
+      <div class="small-12 large-6 cell">
         <h2 class="secondary-font-italic orange">{{page.how-header}}</h2>
         {{page.how-text | markdownify}}
       </div>
-      <div class="small-12 medium-6 cell">
+      <div class="small-12 large-6 cell">
         {% for locations in page.how-locations %}
-        <div class="margin-bottom-2">
-          <h3>{{locations.title}}</h3>
-          <h5 class="primary-font-italic">{{locations.area}}</h5>
+        <div class="{% if forloop.last == true %}margin-bottom-0{% else %}margin-bottom-2{% endif %}">
+          <h4>{{locations.title}}</h4>
+          <h5 class="primary-font-italic">Including — {{locations.area}}</h5>
           Contact: <a href="{{locations.link}}" class="underline">{{locations.contact}}</a>
         </div>
         {% endfor %}
@@ -69,16 +79,16 @@ layout: default
 <!-- End How -->
 
 <!-- When -->
-<section class="when padding-2">
+<section class="when">
 <div class="grid-container">
 <div class="grid-x grid-padding-x padding-top-2 padding-bottom-2" data-aos="fade-in">
   <div class="small-12 cell text-center">
     <h2 class="secondary-font-italic">{{page.when-header}}</h2>
   </div>
-  <div class="small-12 medium-6 cell">
+  <div class="small-12 large-6 cell">
     {{page.when-text | markdownify}}
   </div>
-  <div class="small-12 medium-6 cell">
+  <div class="small-12 large-6 cell">
     {{page.when-extra-text | markdownify}}
   </div>
 </div>
@@ -87,23 +97,23 @@ layout: default
 <!-- End When -->
 
 <!-- Where -->
-<section class="where padding-2">
+<section class="where">
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
-      <div class="small-12 medium-6 cell">
+      <div class="small-12 large-6 cell">
         <h2 class="secondary-font-italic bright-maroon">{{page.where-header}}</h2>
         {{page.where-text | markdownify}}
       </div>
-      <div class="small-12 medium-6 cell">
-        <h3 class="margin-bottom-1">NHS Choices – The Pregnancy Care Planner</h3>
+      <div class="small-12 large-6 cell">
+        <h4 class="margin-bottom-1">NHS Choices — The Pregnancy Care Planner</h4>
         {% for care-link in page.where-care-links %}
-        <div class="margin-bottom-2">
+        <div class="{% if forloop.last == true %}margin-bottom-0{% else %}margin-bottom-2{% endif %}">
           <a href="{{care-link.link}}" class="underline">{{care-link.title}}</a>
         </div>
         {% endfor %}
-        <h3 class="margin-bottom-1">NHS Choices – Birth to Five</h3>
+        <h4 class="margin-bottom-1 margin-top-2">NHS Choices — Birth to Five</h4>
         {% for birth-link in page.where-birth-links %}
-        <div class="margin-bottom-2">
+        <div class="{% if forloop.last == true %}margin-bottom-0{% else %}margin-bottom-2{% endif %}">
           <a href="{{birth-link.link}}" class="underline">{{birth-link.title}}</a>
         </div>
         {% endfor %}
