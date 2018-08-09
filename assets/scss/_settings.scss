@@ -210,10 +210,10 @@ $header-styles: (
     'h6': ('fs': 16, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom)
   ),
   'medium': (
-    'h1': ('fs': 72, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
+    'h1': ('fs': 96, 'lh': 1.1, 'mt': 0, 'mb': $header-margin-bottom),
     'h2': ('fs': 56, 'lh': $header-lineheight, 'mt': 0, 'mb': 2rem),
-    'h3': ('fs': 31, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
-    'h4': ('fs': 25, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
+    'h3': ('fs': 48, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
+    'h4': ('fs': 28, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
     'h5': ('fs': 20, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
     'h6': ('fs': 16, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom)
   ),

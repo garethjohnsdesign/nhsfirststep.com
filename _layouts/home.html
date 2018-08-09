@@ -57,8 +57,8 @@ layout: default
       <div class="small-12 medium-6 cell">
         {% for locations in page.how-locations %}
         <div class="margin-bottom-2">
-          <h3>{{locations.title}}</h3>
-          <h5 class="primary-font-italic">{{locations.area}}</h5>
+          <h4>{{locations.title}}</h4>
+          <h5 class="primary-font-italic">Including — {{locations.area}}</h5>
           Contact: <a href="{{locations.link}}" class="underline">{{locations.contact}}</a>
         </div>
         {% endfor %}
@@ -95,15 +95,15 @@ layout: default
         {{page.where-text | markdownify}}
       </div>
       <div class="small-12 medium-6 cell">
-        <h3 class="margin-bottom-1">NHS Choices – The Pregnancy Care Planner</h3>
+        <h4 class="margin-bottom-1">NHS Choices — The Pregnancy Care Planner</h4>
         {% for care-link in page.where-care-links %}
-        <div class="margin-bottom-2">
+        <div class="margin-bottom-1">
           <a href="{{care-link.link}}" class="underline">{{care-link.title}}</a>
         </div>
         {% endfor %}
-        <h3 class="margin-bottom-1">NHS Choices – Birth to Five</h3>
+        <h4 class="margin-bottom-1 margin-top-2">NHS Choices — Birth to Five</h4>
         {% for birth-link in page.where-birth-links %}
-        <div class="margin-bottom-2">
+        <div class="margin-bottom-1">
           <a href="{{birth-link.link}}" class="underline">{{birth-link.title}}</a>
         </div>
         {% endfor %}

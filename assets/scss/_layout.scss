@@ -127,7 +127,6 @@ p a {
     background: get-color(medium-teal-blue);
     box-shadow: -0.5rem 0 0 get-color(medium-teal-blue), 0.5rem 0 0 get-color(medium-teal-blue);
     box-decoration-break: clone;
-    line-height: 1.2;
   }
   h1 span em{
     color: get-color(orange);
@@ -154,6 +153,10 @@ p a {
 .when {
   background-color: get-color(tiffany-blue);
   color: $white;
+  @include links ($white, $primary-color);
+  p a {
+  border-bottom: 2px solid $white;
+  }
 }
 
 footer {
