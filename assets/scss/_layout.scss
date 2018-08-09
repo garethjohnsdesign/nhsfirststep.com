@@ -164,17 +164,34 @@ p a {
 }
 
 footer {
-  padding: 2rem;
+  @include padding(1.5,1.5,1.5,1.5);
+  @include breakpoint(medium) {
+    @include padding(2,2,2,2);
+  }
   background-color: get-color(bright-maroon);
   color: $white;
   @include links ($white, $primary-color)
 }
 
+.navigation {
+  @include padding(1.5,1.5,1.5,1.5);
+  @include breakpoint(medium) {
+    @include padding(2,2,2,2);
+  }
+}
+
 section {
-  padding: 2rem;
+  @include padding(1.5,1.5,1.5,1.5);
+  @include breakpoint(medium) {
+    @include padding(2,2,2,2);
+  }
 }
 
 .hashtag {
+    @include padding(1.5,1.5,1.5,1.5);
+  @include breakpoint(medium) {
+    @include padding(2,2,2,2);
+  }
   position: absolute;
   bottom: 0;
   left: 0;
