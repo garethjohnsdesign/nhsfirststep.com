@@ -4,11 +4,21 @@ layout: default
 
 {% assign background-image = page.hero-image %}
 <section class="hero" {% include images/feature.html %}>
-  <div class="grid-x align-bottom align-center" style="height: 100%;">
+  
+  {% include navigation.html %}
+  
+  <div class="grid-x align-bottom align-center height-100">
     <div class="small-shrink medium-10 large-8 xxlarge-6 cell text-center margin-bottom-3">
       <h1 class="white secondary-font-italic margin-bottom-3" data-aos="fade-in"><span>Pregnant <br><em>and</em> Prepared</span></h1>
     </div>
   </div>
+  
+  <div class="grid-x hashtag grid-padding-x grid-padding-y">
+    <div class="small-12 cell">
+    <svg class="icon icon-hash"><use xlink:href="/assets/icons/symbol-defs.svg#icon-hash"></use></svg>
+    </div>
+  </div>
+  
 </section>
 <!-- End Menu Hero -->
 

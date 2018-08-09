@@ -120,6 +120,7 @@ p a {
 }
 
 .hero {
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -163,6 +164,7 @@ p a {
 }
 
 footer {
+  padding: 2rem;
   background-color: get-color(bright-maroon);
   color: $white;
   @include links ($white, $primary-color)
@@ -170,4 +172,10 @@ footer {
 
 section {
   padding: 2rem;
+}
+
+.hashtag {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
