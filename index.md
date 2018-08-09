@@ -52,12 +52,12 @@ when-text: |-
   Some very sensitive pregnancy tests can be used even before you miss a period, from as early as eight days after conception.
 when-extra-text: "You can take a pregnancy test on a sample of urine collected at
   any time of the day. It doesn't have to be in the morning.\n\n**For more information
-  you can find \x03your local maternity services [here](https://www.england.nhs.uk).**"
+  you can find \x03your local maternity services [here](https://www.nhs.uk/Service-Search/Maternity-service/LocationSearch/1802).**"
 where-header: Where can I find more information on pregnancy?
 where-text: |-
   Use our NHS-accredited links for more information and support on pregnancy, childbirth and becoming a new parent.
 
-  **You can find further information on pregnancy via the NHS Choices page [here](https://www.england.nhs.uk).**
+  **You can find further information on pregnancy via the NHS Choices page [here](https://www.nhs.uk/Service-Search/Maternity-service/LocationSearch/1802).**
 where-care-links:
 - title: Easy-read information for people with learning disabilities
   link: http://www.easyhealth.org.uk/listing/pregnancy-(leaflets)
