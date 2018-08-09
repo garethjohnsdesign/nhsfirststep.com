@@ -125,12 +125,6 @@
 		"oAP": "\/_layouts\/page.html",
 		"oF": 0
 		},
-	"\/_site": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/_site",
-		"oF": 0
-		},
 	"\/_uploads\/anna.jpg": {
 		"ft": 16384,
 		"iS": 2532280,
@@ -152,6 +146,13 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/_uploads\/NHS-EMS-Poster-A4-Print_01.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_uploads\/NHS-EMS-Poster-A4-Print_01.pdf",
+		"oF": 0
 		},
 	"\/assets\/css\/app.css": {
 		"aP": 0,
