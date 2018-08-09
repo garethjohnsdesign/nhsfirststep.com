@@ -67,7 +67,7 @@ svg {
   color: get-color(orange);
 }
 
-.navigation {
+.home .navigation {
   position: absolute;
   top: 0;
   left: 0;
@@ -76,6 +76,10 @@ svg {
 
 // 5. Typography
 // -------------
+
+.menu .menu-text {
+font-weight: normal;
+}
 
 strong, b {
 font-weight: normal;
@@ -116,7 +120,6 @@ p a {
 }
 
 .hero {
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -161,5 +164,10 @@ p a {
 
 footer {
   background-color: get-color(bright-maroon);
+  color: $white;
   @include links ($white, $primary-color)
+}
+
+section {
+  padding: 2rem;
 }

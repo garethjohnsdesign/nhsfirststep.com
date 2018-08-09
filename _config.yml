@@ -44,7 +44,6 @@ per_page: 12
 date_format: "%Y"
 future: true
 social:
-  twitter: https://twitter.com/nhsfirststep
   instagram: https://www.instagram.com/nhsfirststep
   facebook: https://www.facebook.com/nhsfirststep
 compress_html:

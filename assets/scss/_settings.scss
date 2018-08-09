@@ -66,8 +66,9 @@
 // ---------
 
 // $global-font-size: 100%;
-$global-font-size: 125%;
-$global-width: rem-calc(1200);
+$global-font-size: 20px;
+// $global-width: rem-calc(1200);
+$global-width: rem-calc(1024);
 $global-lineheight: 1.5;
 /*
 $foundation-palette: (
@@ -206,7 +207,7 @@ $header-styles: (
     'h2': ('fs': 36, 'lh': $header-lineheight, 'mt': 0, 'mb': 1rem),
     'h3': ('fs': 32, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
     'h4': ('fs': 20, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
-    'h5': ('fs': 20, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
+    'h5': ('fs': 20, 'lh': 1.4, 'mt': 0, 'mb': $header-margin-bottom),
     'h6': ('fs': 16, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom)
   ),
   'medium': (
@@ -214,7 +215,7 @@ $header-styles: (
     'h2': ('fs': 56, 'lh': $header-lineheight, 'mt': 0, 'mb': 2rem),
     'h3': ('fs': 48, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
     'h4': ('fs': 28, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
-    'h5': ('fs': 20, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
+    'h5': ('fs': 20, 'lh': 1.4, 'mt': 0, 'mb': $header-margin-bottom),
     'h6': ('fs': 16, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom)
   ),
 );
@@ -233,7 +234,7 @@ $code-padding: rem-calc(2 5 1);
 // $anchor-color: $primary-color;
 $anchor-color: $black;
 // $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
-$anchor-color-hover: scale-color($anchor-color, $lightness: 50%);
+$anchor-color-hover: scale-color($anchor-color, $lightness: 75%);
 // $anchor-color-hover: $medium-gray;
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
@@ -941,12 +942,13 @@ $grid-margin-gutters: (
 );
 */
 $grid-margin-gutters: (
-  small: 1rem,
+  small: 2rem,
   medium: 3rem,
   large: 4rem,
 );
 $grid-padding-gutters: $grid-margin-gutters;
-$grid-container-padding: $grid-padding-gutters;
+// $grid-container-padding: $grid-padding-gutters;
+$grid-container-padding: 0;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
 
