@@ -4,7 +4,7 @@ position: 0
 image: "/assets/img/og-image.png"
 hero-image: "/uploads/couple.jpg"
 find-header-text: "### Find details on how to self-refer to your \x03local maternity
-  unit [here](https://www.england.nhs.uk)\n"
+  unit [here](/#how)"
 find-subheader-text: The NHS recommends you contact your local maternity unit as soon
   as you find out you are pregnant.
 why-image: "/uploads/anna.jpg"
@@ -17,12 +17,12 @@ why-text: "Contacting your local maternity unit as soon as you find out you are 
   pregnancy, for example the test for sickle cell and thalassaemia can only be carried
   out prior to ten weeks.\n\nYour pregnancy will be treated confidentially, even if
   you are under 16.\n\n**For further information you can find your local maternity
-  services [here](https://www.england.nhs.uk).**"
+  services [here](/#how).**"
 how-header: How do I contact my local maternity unit?
 how-text: |-
   You can find contact details for your local maternity unit by following the links on this page.
 
-  **If you live outside of Essex you can find your local maternity unit via the NHS Choices page [here](https://www.england.nhs.uk).**
+  **If you live outside of Essex you can find your local maternity unit via the NHS Choices page [here](https://www.nhs.uk/Service-Search/Maternity-service/LocationSearch/1802).**
 how-locations:
 - title: West Essex Patients
   area: 'Loughton, Buckhurst Hill, Chigwell, Waltham Abbey, Rodings, Saffron Walden,
@@ -60,22 +60,22 @@ where-text: |-
   **You can find further information on pregnancy via the NHS Choices page [here](https://www.england.nhs.uk).**
 where-care-links:
 - title: Easy-read information for people with learning disabilities
-  link: https://www.england.nhs.uk
+  link: http://www.easyhealth.org.uk/listing/pregnancy-(leaflets)
 - title: Pregnancy care planner
-  link: https://www.england.nhs.uk
+  link: https://www.nhs.uk/conditions/pregnancy-and-baby/documents/birth-plan-blank-form-nhs-choices-pregnancy-baby.pdf
 - title: Stop smoking in pregnancy
-  link: https://www.england.nhs.uk
+  link: https://www.nhs.uk/conditions/pregnancy-and-baby/smoking-pregnant/
 - title: Premature labour and birth
-  link: https://www.england.nhs.uk
+  link: https://www.nhs.uk/conditions/pregnancy-and-baby/premature-early-labour/
 - title: Can I drink alcohol if I’m pregnant?
-  link: https://www.england.nhs.uk
+  link: https://www.nhs.uk/conditions/pregnancy-and-baby/alcohol-medicines-drugs-pregnant/
 - title: Advice for dads
-  link: https://www.england.nhs.uk
+  link: https://www.nhs.uk/conditions/pregnancy-and-baby/dad-to-be-pregnant-partner/
 - title: Sleep and tiredness after having a baby
-  link: https://www.england.nhs.uk
+  link: https://www.nhs.uk/conditions/pregnancy-and-baby/sleep-and-tiredness/
 where-birth-links:
 - title: Birth to five
-  link: https://www.england.nhs.uk
+  link: https://www.nhs.uk/Tools/Pages/birthtofive.aspx
 poster-file: "/uploads/NHS-EMS-Poster-A4-Print_01.pdf"
 layout: home
 ---
