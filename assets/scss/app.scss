@@ -3,40 +3,27 @@
 //  Table of Contents:
 //
 //   1. Fonts
-//   2. Colors
-//   3. Typography
-//   4. Scroll
-//   5. Transitions
-//   6. Hamburgers
-//   7. Foundation
-//   8. Layout
-
+//   2. Typography
+//   3. Scroll
+//   4. Foundation
+//   5. Layout
 
 // 1. Fonts
 // --------
 
 @import 'fonts';
 
-
 // 2. Typography
 // -------------
 
 @import 'typography';
-
 
 // 3. Scroll
 // ---------
 
 @import 'scroll/aos';
 
-
-// 4. Transitions
-// --------------
-
-@import 'transitions';
-
-
-// 5. Foundation
+// 4. Foundation
 // -------------
 
 @import 'settings';
@@ -93,8 +80,7 @@
 // @include motion-ui-transitions;
 // @include motion-ui-animations;
 
-
-// 7. Layout
+// 5. Layout
 // ---------
 
 @import 'icons';

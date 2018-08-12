@@ -2,20 +2,10 @@
 //
 //   1. Mixins
 //   2. Global
-//   3. Plugins
 //   4. Color
 //   5. Typography
 //   6. Navigation
-//   7. Off-canvas
-//   8. Layout
-//   9. Home
-//   10. Menu / Food
-//   11. Find Us
-//   12. Story
-//   13. Hire Us
-//   14. Contact
-//   15. Page
-//   16. Footer
+//   7. Sections
 
 
 // 1. Mixins
@@ -59,22 +49,14 @@ svg {
   @include links ($white, $primary-color)
 }
 
-.bright-maroon {
-  color: get-color(bright-maroon);
-}
-
 .orange {
   color: get-color(orange);
 }
 
-.home .navigation {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  color: $white;
-  @include links ($white, $primary-color)
+.bright-maroon {
+  color: get-color(bright-maroon);
 }
+
 
 // 5. Typography
 // -------------
@@ -86,7 +68,6 @@ font-weight: normal;
 strong, b {
 font-weight: normal;
 font-family: $secondary-font-family-italic;
-// font-size: 110%;
 }
 
 .underline {
@@ -121,6 +102,36 @@ p a {
   font-family: $secondary-font-family-italic;
 }
 
+// 6. Navigation
+// -------------
+
+
+.home .navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: $white;
+  @include links ($white, $primary-color)
+}
+
+.navigation {
+  @include padding(1.5,1.5,0,1.5);
+  @include breakpoint(medium) {
+    @include padding(2,2,0,2);
+  }
+}
+
+// 7. Sections
+// -------------
+
+section {
+  @include padding(1.5,1.5,1.5,1.5);
+  @include breakpoint(medium) {
+    @include padding(2,2,2,2);
+  }
+}
+
 .hero {
   position: relative;
   background-repeat: no-repeat;
@@ -137,6 +148,16 @@ p a {
   h1 span em{
     color: get-color(orange);
   }
+}
+
+.hashtag {
+  @include padding(1.5,1.5,1.5,1.5);
+  @include breakpoint(medium) {
+    @include padding(2,2,2,2);
+  }
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .find {
@@ -161,7 +182,7 @@ p a {
   color: $white;
   @include links ($white, $primary-color);
   p a {
-  border-bottom: 2px solid $white;
+    border-bottom: 2px solid $white;
   }
 }
 
@@ -173,28 +194,4 @@ footer {
   background-color: get-color(bright-maroon);
   color: $white;
   @include links ($white, $primary-color)
-}
-
-.navigation {
-  @include padding(1.5,1.5,0,1.5);
-  @include breakpoint(medium) {
-    @include padding(2,2,0,2);
-  }
-}
-
-section {
-  @include padding(1.5,1.5,1.5,1.5);
-  @include breakpoint(medium) {
-    @include padding(2,2,2,2);
-  }
-}
-
-.hashtag {
-    @include padding(1.5,1.5,1.5,1.5);
-  @include breakpoint(medium) {
-    @include padding(2,2,2,2);
-  }
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
