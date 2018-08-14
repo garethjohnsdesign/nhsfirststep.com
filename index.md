@@ -12,11 +12,13 @@ why-header: "Why make\x03 contact early?"
 why-text: "Contacting your local maternity unit as soon as you find out you are pregnant
   will ensure you are offered all available services during your pregnancy. You will
   also receive the most up-to-date information, reassurance and mutual support at
-  the start of your journey. \n\nIdeally you should make contact with a midwife before
-  ten weeks of pregnancy. This is because some tests cannot be carried out later in
-  pregnancy, for example the test for sickle cell and thalassaemia can only be carried
-  out prior to ten weeks.\n\nYour pregnancy will be treated confidentially, even if
-  you are under 16.\n\n**For further information you can find your local maternity
+  the start of your journey. \n\nIdeally you should make contact with a midwife well
+  before 10 weeks of pregnancy in order to ensure you can be booked for your early
+  screening tests. Early screening is recommended by the National Screening Committee
+  to identify people who are at higher risk of a health problem, which means that
+  they can get earlier, potentially more effective treatment and make informed decisions
+  about their health and their baby’s health.\n\nYour pregnancy will be treated confidentially,
+  even if you are under 16.\n\n**For further information you can find your local maternity
   services [here](#how).**"
 how-header: How do I contact my local maternity unit?
 how-text: |-
