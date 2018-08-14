@@ -14,14 +14,31 @@
 @mixin links ($link, $hover) {
   a {
     color: $link;
+    transition: color .35s cubic-bezier(.39, .575, .565, 1);
     &:hover {
       color: $hover;   
+      transition: color .35s cubic-bezier(.39, .575, .565, 1);
     }
   }
 }
 
 // 2. Global
 // ---------
+
+html {
+  font-size: 18px;
+  @include breakpoint(medium) {
+    font-size: 20px;
+  }
+}
+
+p {
+  font-size: 18px;
+  @include breakpoint(medium) {
+    font-size: 20px;
+  }
+}
+
 
 body {
   cursor: default;
@@ -34,7 +51,7 @@ svg {
 
 ::selection {
   background: $primary-color;
-  color: $black;
+  color: $white;
 }
 
 :focus {
@@ -72,6 +89,12 @@ font-family: $secondary-font-family-italic;
 
 .underline {
   border-bottom: 1px solid $black;
+  transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
+}
+
+.underline:hover {
+  border-bottom: 1px solid transparent;
+  transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
 }
 
 .uppercase {
@@ -84,6 +107,12 @@ i, cite, em, var, address, dfn {
 
 p a {
   border-bottom: 2px solid $black;
+  transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
+}
+
+p a:hover {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
 }
 
 .primary-font {
@@ -166,9 +195,11 @@ section {
   a {
     color: $white;
     border-bottom: 3px solid $white;
+    transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
     &:hover {
       color: $white;
       border-bottom: 3px solid transparent;
+      transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
     }
   }
 }
@@ -180,9 +211,14 @@ section {
 .when {
   background-color: get-color(tiffany-blue);
   color: $white;
-  @include links ($white, $primary-color);
+  @include links ($white, $white);
   p a {
     border-bottom: 2px solid $white;
+    transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
+  }
+  p a:hover {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
   }
 }
 
@@ -193,5 +229,5 @@ footer {
   }
   background-color: get-color(bright-maroon);
   color: $white;
-  @include links ($white, $primary-color)
+  @include links ($white, $black)
 }

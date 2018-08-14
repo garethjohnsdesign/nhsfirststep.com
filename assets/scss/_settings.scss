@@ -80,7 +80,7 @@ $foundation-palette: (
 );
 */
 $foundation-palette: (
-  primary: #121212,
+  primary: #005EB8,
   secondary: #767676,
   success: #3adb76,
   warning: #ffae00,
@@ -222,7 +222,7 @@ $header-styles: (
     'h1': ('fs': 96, 'lh': 1.1, 'mt': 0, 'mb': $header-margin-bottom),
     'h2': ('fs': 56, 'lh': $header-lineheight, 'mt': 0, 'mb': 2rem),
     'h3': ('fs': 48, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
-    'h4': ('fs': 28, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
+    'h4': ('fs': 24, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom),
     'h5': ('fs': 20, 'lh': 1.4, 'mt': 0, 'mb': $header-margin-bottom),
     'h6': ('fs': 16, 'lh': $header-lineheight, 'mt': 0, 'mb': $header-margin-bottom)
   ),
@@ -242,7 +242,7 @@ $code-padding: rem-calc(2 5 1);
 // $anchor-color: $primary-color;
 $anchor-color: $black;
 // $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
-$anchor-color-hover: scale-color($anchor-color, $lightness: 75%);
+$anchor-color-hover: $black;
 // $anchor-color-hover: $medium-gray;
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
