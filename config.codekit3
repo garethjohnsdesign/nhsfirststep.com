@@ -179,7 +179,7 @@
 		},
 	"\/assets\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
-		"iS": 2570,
+		"iS": 5084,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/android-chrome-192x192.png",
 		"oF": 0,
@@ -190,7 +190,7 @@
 		},
 	"\/assets\/favicons\/android-chrome-512x512.png": {
 		"ft": 32768,
-		"iS": 7421,
+		"iS": 14772,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/android-chrome-512x512.png",
 		"oF": 0,
@@ -201,7 +201,7 @@
 		},
 	"\/assets\/favicons\/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 1211,
+		"iS": 4836,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/apple-touch-icon.png",
 		"oF": 0,
@@ -219,7 +219,7 @@
 		},
 	"\/assets\/favicons\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 546,
+		"iS": 778,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/favicon-16x16.png",
 		"oF": 0,
@@ -230,7 +230,7 @@
 		},
 	"\/assets\/favicons\/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 664,
+		"iS": 1082,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/favicon-32x32.png",
 		"oF": 0,
@@ -246,55 +246,11 @@
 		"oAP": "\/assets\/favicons\/favicon.ico",
 		"oF": 0
 		},
-	"\/assets\/favicons\/mstile-144x144.png": {
-		"ft": 32768,
-		"iS": 1798,
-		"oA": 0,
-		"oAP": "\/assets\/favicons\/mstile-144x144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/assets\/favicons\/mstile-150x150.png": {
 		"ft": 32768,
-		"iS": 1678,
+		"iS": 4024,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/mstile-150x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/favicons\/mstile-310x150.png": {
-		"ft": 32768,
-		"iS": 2033,
-		"oA": 0,
-		"oAP": "\/assets\/favicons\/mstile-310x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/favicons\/mstile-310x310.png": {
-		"ft": 32768,
-		"iS": 3939,
-		"oA": 0,
-		"oAP": "\/assets\/favicons\/mstile-310x310.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/favicons\/mstile-70x70.png": {
-		"ft": 32768,
-		"iS": 1230,
-		"oA": 0,
-		"oAP": "\/assets\/favicons\/mstile-70x70.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6742,6 +6698,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/humans.txt",
+		"oF": 0
+		},
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/index.md": {
