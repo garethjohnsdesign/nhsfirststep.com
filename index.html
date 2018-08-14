@@ -5,7 +5,8 @@ image: "/assets/img/og-image.png"
 hero-image: "/uploads/couple.jpg"
 find-header-text: "### Find details on how to self-refer to your \x03local maternity
   unit [here](#how)"
-find-subheader-text: "The NHS recommends you contact your local maternity unit as soon as you find out you are pregnant."
+find-subheader-text: The NHS recommends you contact your local maternity unit as soon
+  as you find out you are pregnant.
 why-image: "/uploads/anna.jpg"
 why-header: "Why make\x03 contact early?"
 why-text: "Contacting your local maternity unit as soon as you find out you are pregnant
@@ -37,11 +38,11 @@ how-locations:
   contact: Southend Hospital
   link: http://www.southend.nhs.uk/your-services/maternity-unit/
 - title: South West Essex Patients
-  area: "Basildon, Thurrock, Brentwood, Wickford"
+  area: Basildon, Thurrock, Brentwood, Wickford
   contact: Basildon Hospital South
   link: http://www.basildonandthurrock.nhs.uk/clinical-services/1158-maternity-direct
 - title: North East Essex Patients
-  area: "Colchester, Clacton, Kelvedon, Marks Tey "
+  area: 'Colchester, Clacton, Kelvedon, Marks Tey '
   contact: Colchester Hospital
   link: http://www.colchesterhospital.nhs.uk/maternity_self_referral.shtml
 when-header: When can you take a pregnancy test?
