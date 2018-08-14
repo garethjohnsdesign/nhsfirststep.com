@@ -20,7 +20,7 @@ why-text: "Contacting your local maternity unit as soon as you find out you are 
   services [here](#how).**"
 how-header: How do I contact my local maternity unit?
 how-text: |-
-  You can find contact details for your local maternity unit by following the links on this page.
+  You can find contact details for your local maternity unit by following the links in this section.
 
   **If you live outside of Essex you can find your local maternity unit via the NHS Choices page [here](https://www.nhs.uk/Service-Search/Maternity-service/LocationSearch/1802).**
 how-locations:
