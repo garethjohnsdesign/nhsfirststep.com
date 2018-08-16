@@ -3,12 +3,11 @@ title: NHS First Step
 position: 0
 image: "/assets/img/og-image.png"
 hero-image: "/uploads/couple.jpg"
-find-header-text: "### Find details on how to contact your local maternity unit
-  [here](#how)"
+find-header-text: "### Find details on how to contact your local maternity unit [here](#how)"
 find-subheader-text: The NHS recommends you contact your local maternity unit as soon
   as you find out you are pregnant.
 why-image: "/uploads/anna.jpg"
-why-header: "Why make contact early?"
+why-header: Why make contact early?
 why-text: "Contacting your local maternity unit as soon as you find out you are pregnant
   will ensure you are offered all available services during your pregnancy. You will
   also receive the most up-to-date information, reassurance and mutual support at
