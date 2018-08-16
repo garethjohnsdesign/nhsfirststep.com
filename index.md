@@ -3,12 +3,12 @@ title: NHS First Step
 position: 0
 image: "/assets/img/og-image.png"
 hero-image: "/uploads/couple.jpg"
-find-header-text: "### Find details on how to contact your \x03local maternity unit
+find-header-text: "### Find details on how to contact your local maternity unit
   [here](#how)"
 find-subheader-text: The NHS recommends you contact your local maternity unit as soon
   as you find out you are pregnant.
 why-image: "/uploads/anna.jpg"
-why-header: "Why make\x03 contact early?"
+why-header: "Why make contact early?"
 why-text: "Contacting your local maternity unit as soon as you find out you are pregnant
   will ensure you are offered all available services during your pregnancy. You will
   also receive the most up-to-date information, reassurance and mutual support at
@@ -59,7 +59,7 @@ where-header: Where can I find more information on pregnancy?
 where-text: |-
   Use our NHS-accredited links for more information and support on pregnancy, childbirth and becoming a new parent.
 
-  **You can find further information on pregnancy via the NHS Choices page [here](https://www.nhs.uk/Service-Search/Maternity-service/LocationSearch/1802).**
+  **You can find further information on pregnancy via the NHS Choices page [here](https://www.nhs.uk/conditions/pregnancy-and-baby/).**
 where-care-links:
 - title: Easy-read information for people with learning disabilities
   link: http://www.easyhealth.org.uk/listing/pregnancy-(leaflets)
