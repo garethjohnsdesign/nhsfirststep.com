@@ -51,9 +51,10 @@ when-text: |-
   You can carry out most pregnancy tests from the first day of a missed period. If you don't know when your next period is due, take the test at least 21 days after you last had unprotected sex.
 
   Some very sensitive pregnancy tests can be used even before you miss a period, from as early as eight days after conception.
-when-extra-text: "You can take a pregnancy test on a sample of urine collected at
-  any time of the day. It doesn't have to be in the morning.\n\n**For more information
-  you can find your local maternity services [here](#how).**"
+when-extra-text: |-
+  You can take a pregnancy test on a sample of urine collected at any time of the day. It doesn't have to be in the morning.
+
+  **For more information you can find your local maternity services [here](#how).**
 where-header: Where can I find more information on pregnancy?
 where-text: |-
   Use our NHS-accredited links for more information and support on pregnancy, childbirth and becoming a new parent.
